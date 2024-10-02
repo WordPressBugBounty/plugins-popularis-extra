@@ -3,7 +3,7 @@ Contributors: Themes4WP
 Author URI: https://themes4wp.com/
 Requires at Least: 4.4
 Tested Up To: 6.6
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,6 +18,7 @@ Popularis Extra gives you access to demo import for free PopularisWP themes, ext
 This plugin requires PopularisWP theme to be installed.
 == Supported Themes ==
 *   [Popularis](https://wordpress.org/themes/popularis/)
+*   [Popularis eCommerce](https://populariswp.com/popularis-ecommerce/)
 *   [Popularis Verse](https://wordpress.org/themes/popularis-verse/)
 *   [Popularis Hub](https://wordpress.org/themes/popularis-hub/)
 *   [Popularis Star](https://wordpress.org/themes/popularis-star/)
@@ -33,6 +34,12 @@ This plugin requires PopularisWP theme to be installed.
 3. Done!
 
 == Changelog ==
+
+= 1.2.7 =
+* Security update
+* Updated plugin description
+* Tested with  Elementor 3.24
+* Tested with WooCommerce 9.4
 
 = 1.2.6 =
 * Added WooCommerce HPOS support
