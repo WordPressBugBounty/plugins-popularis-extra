@@ -255,16 +255,16 @@ class Popularis_Text_Block extends Widget_Base {
 
         $settings = $this->get_settings_for_display();
         $content = $settings['content_description'];
-        $block = $settings['header_size'];
+        $block = Utils::validate_html_tag( $settings['header_size']);
 
         $animation_effects = $settings["animation_effects"];
         $animation_delay = '';
         if ($settings["animation_effects"] != 'no-animation') {
-            $animation_delay = $settings["animation_delay"]["size"];
+            $animation_delay = isset($settings["animation_delay"]["size"]) ? $settings["animation_delay"]["size"] : '50';
         }
         $animate_duration = '';
         if ($settings["animation_duration_default"] == 'yes') {
-            $animate_duration = $settings["animate_duration"]["size"];
+            $animate_duration = isset($settings["animate_duration"]["size"]) ? $settings["animate_duration"]["size"] : '50';
         }
         if ($animation_effects == 'no-animation') {
             $animated_class = '';
