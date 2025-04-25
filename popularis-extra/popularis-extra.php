@@ -4,13 +4,10 @@
  * Plugin Name: Popularis Extra
  * Plugin URI: https://populariswp.com/
  * Description: Extra addon for Popularis Theme
- * Version: 1.2.8
+ * Version: 1.2.9
  * Author: Themes4WP
  * Author URI: https://themes4wp.com/
  * License: GPL-2.0+
- * WC requires at least: 3.3.0
- * WC tested up to: 9.4
- * Elementor tested up to: 3.25.0
  */
 // Exit if accessed directly.
 if (!defined('ABSPATH')) {
@@ -34,7 +31,7 @@ define('POPULARIS_EXTRA_PLUGIN_BASE', plugin_basename(__FILE__));
 define('POPULARIS_EXTRA_PLUGIN_URL', plugins_url('/', __FILE__));
 
 
-add_action('plugins_loaded', 'popularis_extra_load_textdomain');
+add_action('init', 'popularis_extra_load_textdomain');
 
 function popularis_extra_load_textdomain() {
     load_plugin_textdomain('popularis-extra', false, basename(dirname(__FILE__)) . '/languages/');

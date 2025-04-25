@@ -2,8 +2,8 @@
 Contributors: Themes4WP
 Author URI: https://themes4wp.com/
 Requires at Least: 4.4
-Tested Up To: 6.7
-Stable tag: 1.2.8
+Tested Up To: 6.8
+Stable tag: 1.2.9
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,15 +35,21 @@ This plugin requires PopularisWP theme to be installed.
 
 == Changelog ==
 
+= 1.2.9 =
+* Updated deprecated code
+* Tested with WP 6.8
+* Tested with Elementor 3.28
+* Tested with WooCommerce 3.28
+
 = 1.2.8 =
 * Security update
-* Tested with  Elementor 3.25
+* Tested with Elementor 3.25
 * Tested with WP 6.7
 
 = 1.2.7 =
 * Security update
 * Updated plugin description
-* Tested with  Elementor 3.24
+* Tested with Elementor 3.24
 * Tested with WooCommerce 9.4
 
 = 1.2.6 =
@@ -52,20 +58,20 @@ This plugin requires PopularisWP theme to be installed.
 
 = 1.2.5 =
 * Tested with WP 6.6
-* Tested with  Elementor 3.23
+* Tested with Elementor 3.23
 * Tested with WooCommerce 9.1
 * Added new Elementor widget
 
 = 1.2.4 =
 * Tested with WP 6.5
-* Tested with  Elementor 3.22
+* Tested with Elementor 3.22
 * Tested with WooCommerce 9.0
 * Updated code
 
 = 1.2.3 =
 * Added new theme support
 * Tested with WP 6.3
-* Tested with  Elementor 3.16
+* Tested with Elementor 3.16
 * Tested with WooCommerce 8.2
 
 = 1.2.2 =
