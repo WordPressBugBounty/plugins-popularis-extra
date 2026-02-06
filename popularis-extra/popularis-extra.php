@@ -4,7 +4,7 @@
  * Plugin Name: Popularis Extra
  * Plugin URI: https://populariswp.com/
  * Description: Extra addon for Popularis Theme
- * Version: 1.2.9
+ * Version: 1.2.10
  * Author: Themes4WP
  * Author URI: https://themes4wp.com/
  * License: GPL-2.0+

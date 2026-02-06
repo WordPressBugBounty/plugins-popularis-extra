@@ -2,8 +2,8 @@
 Contributors: Themes4WP
 Author URI: https://themes4wp.com/
 Requires at Least: 4.4
-Tested Up To: 6.8
-Stable tag: 1.2.9
+Tested Up To: 6.9
+Stable tag: 1.2.10
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,11 +35,16 @@ This plugin requires PopularisWP theme to be installed.
 
 == Changelog ==
 
+= 1.2.10 =
+* Updated code
+* Tested with WP 6.9
+* Tested with Elementor 3.33
+
 = 1.2.9 =
 * Updated deprecated code
 * Tested with WP 6.8
 * Tested with Elementor 3.28
-* Tested with WooCommerce 3.28
+* Tested with WooCommerce 10.3
 
 = 1.2.8 =
 * Security update
